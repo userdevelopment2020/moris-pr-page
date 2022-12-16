@@ -19,6 +19,20 @@ section {
   margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .custom_container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
 .common_btn {
   border: 0;
   background: #ee1f4f;
@@ -29,6 +43,12 @@ section {
   border-radius: 60px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .common_btn {
+    padding: 5px 14px 5px 5px;
+  }
 }
 
 .common_btn:hover span {
@@ -53,6 +73,13 @@ section {
   transition: 0.3s ease-in-out;
   -webkit-box-shadow: 5px 0px 0 #00000066;
           box-shadow: 5px 0px 0 #00000066;
+}
+
+@media screen and (max-width: 767px) {
+  .common_btn span {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
 }
 
 .common_btn .yellow_bg {
@@ -565,6 +592,7 @@ section {
   .strategy_wrap .big_graphicimg {
     background-size: 450px;
     width: 100%;
+    background-position: center bottom;
   }
 }
 
@@ -783,6 +811,13 @@ section {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .cta_wrapper {
+    padding: 50px 0;
+    height: auto;
+  }
+}
+
 .cta_wrapper h1 {
   font-size: 40px;
   letter-spacing: -1.02px;
@@ -834,6 +869,12 @@ section {
   }
 }
 
+@media screen and (max-width: 1024px) and (max-width: 767px) {
+  .cta_wrapper .text_box .common_btn {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cta_wrapper .text_box {
     display: block;
@@ -843,17 +884,17 @@ section {
 .approach_wrap {
   margin: 70px 0;
   position: relative;
+  overflow: visible;
 }
 
 @media screen and (max-width: 1100px) {
   .approach_wrap {
-    height: 100%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 767px) {
   .approach_wrap {
-    height: 100%;
     margin: 70px 0 40px;
   }
 }
@@ -883,6 +924,18 @@ section {
   font-weight: 500;
   line-height: 1.7;
   max-width: 520px;
+}
+
+@media screen and (max-width: 767px) {
+  .approach_wrap p {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .approach_wrap .common_btn {
+    margin: 0 0 20px;
+  }
 }
 
 .approach_wrap .common_btn span {
@@ -1011,6 +1064,7 @@ section {
   .approach_wrap .approach_map .centerleft_icon {
     width: 30px;
     height: 30px;
+    top: 60%;
   }
 }
 
@@ -1050,6 +1104,13 @@ section {
   padding: 12px 8px;
 }
 
+@media screen and (max-width: 767px) {
+  .personal_wrap h1 .box_text,
+  .personal_wrap h2 .box_text {
+    padding: 8px;
+  }
+}
+
 .personal_wrap .btm_img_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1082,6 +1143,12 @@ section {
   font-weight: 500;
   line-height: 1.7;
   max-width: 640px;
+}
+
+@media screen and (max-width: 767px) {
+  .personal_wrap p {
+    margin: 20px 0;
+  }
 }
 
 .personal_wrap .common_btn span {
@@ -1333,12 +1400,6 @@ section {
 
 .press_wrap h1 .box_text {
   margin-top: 10px;
-}
-
-@media screen and (max-width: 767px) {
-  .press_wrap h1 .box_text {
-    font-size: 28px !important;
-  }
 }
 
 @media screen and (max-width: 1060px) {
@@ -1760,7 +1821,7 @@ section {
 @media screen and (max-width: 767px) {
   .btm_wrapper h3 {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -1875,6 +1936,12 @@ section {
      object-fit: contain;
 }
 
+@media screen and (max-width: 380px) {
+  .btm_wrapper .btm_center_img {
+    bottom: -105px;
+  }
+}
+
 .btm_wrapper .btm_bg_img {
   position: absolute;
   width: 100%;
@@ -1891,9 +1958,22 @@ section {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .btm_wrapper .btm_bg_img {
+    height: 100px;
+    bottom: -90px;
+  }
+}
+
 footer {
   margin-top: 220px;
   background: #fff;
+}
+
+@media screen and (max-width: 380px) {
+  footer {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1911,12 +1991,14 @@ footer {
 @media screen and (max-width: 767px) {
   h1,
   h2 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     letter-spacing: normal !important;
     line-height: 1.2 !important;
   }
   .box_text {
     letter-spacing: normal;
+    font-size: 25px !important;
+    line-height: normal !important;
   }
 }
 /*# sourceMappingURL=pr.css.map */
