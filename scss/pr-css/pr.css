@@ -229,7 +229,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .whitesection_wrap .big_img {
-    margin: 20px 0 0;
+    margin: 40px 0 0;
   }
 }
 
@@ -391,7 +391,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .statement_wrap .big_img {
-    margin: 20px 0 0;
+    margin: 40px 0 0;
   }
 }
 
@@ -526,6 +526,12 @@ section {
   left: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .statement_wrap .learnmore_blocks a {
+    font-size: 16px;
+  }
+}
+
 .statement_wrap .learnmore_blocks a:hover::after {
   width: 0;
 }
@@ -562,7 +568,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .strategy_wrap {
-    padding: 120px 0 380px;
+    padding: 120px 0 400px;
   }
 }
 
@@ -1078,7 +1084,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .personal_wrap .big_img {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 
@@ -1336,6 +1342,7 @@ section {
 @media screen and (max-width: 767px) {
   .white_section .blocks_wrap a {
     position: unset;
+    font-size: 14px;
   }
 }
 
@@ -1381,7 +1388,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .fashion_bg .big_img {
-    margin: 0;
+    margin: 20px 0 0 -10px;
   }
 }
 
@@ -1446,7 +1453,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .political_bg .big_img {
-    margin: 0;
+    margin: 20px 0 0 -10px;
   }
 }
 
@@ -1542,7 +1549,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .onlinewhite_wrap .big_img {
-    margin: 30px 0 0;
+    margin: 40px 0 0;
   }
 }
 
@@ -1585,6 +1592,14 @@ section {
   width: 70px;
 }
 
+@media screen and (max-width: 767px) {
+  .plan_wrap .centerleft_icon {
+    bottom: 40px;
+    left: 40px;
+    width: 40px;
+  }
+}
+
 .plan_wrap h1 {
   font-size: 36px;
 }
@@ -1606,7 +1621,7 @@ section {
 
 @media screen and (max-width: 767px) {
   .plan_wrap .big_img {
-    margin: 30px 0 0;
+    margin: 40px 0 0;
   }
 }
 

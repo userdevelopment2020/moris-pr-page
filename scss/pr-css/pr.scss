@@ -191,7 +191,7 @@ section {
     }
     .big_img {
         @media screen and (max-width: 767px) {
-            margin: 20px 0 0;
+            margin: 40px 0 0;
         }
     }
     h1 {
@@ -319,7 +319,7 @@ section {
             width: 100%;
         }
         @media screen and (max-width: 767px) {
-            margin: 20px 0 0;
+            margin: 40px 0 0;
         }
     }
     h1 {
@@ -422,6 +422,9 @@ section {
             position: absolute;
             bottom: 15px;
             left: 20px;
+            @media screen and (max-width: 767px) {
+                font-size: 16px;
+            }
             &:hover {
                 &::after {
                     width: 0;
@@ -454,7 +457,7 @@ section {
         padding-bottom: 240px;
     }
     @media screen and (max-width: 767px) {
-        padding: 120px 0 380px;
+        padding: 120px 0 400px;
     }
     .col-md-6 {
         @media screen and (max-width: 1024px) {
@@ -833,7 +836,7 @@ section {
     padding: 30px 0;
     .big_img {
         @media screen and (max-width: 767px) {
-            margin-top: 30px;
+            margin-top: 40px;
         }
     }
     h1,
@@ -1011,6 +1014,7 @@ section {
             left: 0;
             @media screen and (max-width: 767px) {
                 position: unset;
+                font-size: 14px;
             }
             &:hover {
                 img {
@@ -1047,7 +1051,7 @@ section {
         max-width: 550px;
         margin-left: -50px;
         @media screen and (max-width: 767px) {
-            margin: 0;
+            margin: 20px 0 0 -10px;
         }
     }
     .mob_reverse {
@@ -1099,7 +1103,7 @@ section {
         max-width: 550px;
         margin-left: -50px;
         @media screen and (max-width: 767px) {
-            margin: 0;
+            margin: 20px 0 0 -10px;
         }
     }
     h1 {
@@ -1163,7 +1167,7 @@ section {
         margin-left: auto;
         display: block;
         @media screen and (max-width: 767px) {
-            margin: 30px 0 0;
+            margin: 40px 0 0;
         }
     }
 }
@@ -1198,6 +1202,11 @@ section {
         left: 90px;
         transform: rotate(160deg);
         width: 70px;
+        @media screen and (max-width: 767px) {
+            bottom: 40px;
+            left: 40px;
+            width: 40px;
+        }
     }
     h1 {
         font-size: 36px;
@@ -1213,7 +1222,7 @@ section {
         max-width: 100%;
         margin: 0;
         @media screen and (max-width: 767px) {
-            margin: 30px 0 0;
+            margin: 40px 0 0;
         }
     }
     .mob_reverse {
