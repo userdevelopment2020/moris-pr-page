@@ -116,7 +116,7 @@ header {
                     margin-right: 25px;
                 }
                 @media only screen and (max-width: 1024px) {
-                    font-size: 14px;
+                    font-size: 12px;
                 }
                 &:hover {
                     color: $yellow-4
@@ -1277,6 +1277,9 @@ header {
     .mega-menu-content {
         display: flex;
         align-items: center;
+        @media only screen and (max-width: 1024px) {
+            flex-direction: column;
+        }
         .menu-items {
             width: 453px;
             border-right: 1px solid $grey-16;
@@ -1296,6 +1299,9 @@ header {
                     list-style: none;
                     display: block;
                     margin-bottom: 28px;
+                    @media only screen and (max-width: 1024px) {
+                        // margin-bottom: 15px;
+                    }
                     a {
                         color: $blue-1;
                         font-size: 17px;
@@ -1303,6 +1309,9 @@ header {
                         position: relative;
                         padding-left: 35px;
                         padding-right: 20px;
+                        @media only screen and (max-width: 1024px) {
+                            // font-size: 15px;
+                        }
                         svg {
                             color: #161436
                         }
@@ -1438,6 +1447,9 @@ header {
                     @media only screen and (max-width: 767px) {
                         width: 100%;
                         margin-bottom: 27px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
                     }
                     .img {
                         width: 81px;
@@ -1485,10 +1497,16 @@ header {
         .menu-img {
             flex: 1;
             @media only screen and (max-width: 1024px) {
-                display: none;
+                display: block;
+                flex: none;
             }
             img {
                 margin-bottom: 30px;
+                @media only screen and (max-width: 1024px) {
+                    height: 100%;
+                    width: 100%;
+                    margin: 40px 0px 20px;
+                }
             }
         }
     }
@@ -1526,5 +1544,12 @@ header {
 .hidden-tablet {
     @media only screen and (max-width: 1024px) {
         display: none !important;
+    }
+}
+
+.more-btn {
+    @media only screen and (max-width: 1024px) {
+        font-size: 15px;
+        padding: 10px 30px 10px 80px;
     }
 }
