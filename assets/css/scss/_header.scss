@@ -630,9 +630,9 @@ header {
                 border-radius: 0 0 30px 30px;
                 display: none;
                 z-index: 10;
-                padding-bottom: 240px;
-                height: 800px;
-                overflow-y: auto;
+                // padding-bottom: 240px;
+                // height: 800px;
+                // overflow-y: auto;
                 @media only screen and (max-width: 1200px) {
                     position: fixed;
                     height: calc(100% - 200px);
@@ -651,9 +651,9 @@ header {
                 .content {
                     display: flex;
                     gap: 30px;
-                    padding: 46px 269px 68px;
+                    padding: 40px 60px;
                     @media only screen and (max-width: 1440px) {
-                        padding: 46px 30px 68px;
+                        padding: 40px 30px;
                     }
                     @media only screen and (max-width: 1200px) {
                         display: block;
@@ -692,7 +692,7 @@ header {
                             .heading {
                                 color: $pink-3;
                                 font-size: 18px;
-                                margin-bottom: 15px;
+                                margin-bottom: 10px;
                                 position: relative;
                                 padding-left: 36px;
                                 text-transform: uppercase;
@@ -712,11 +712,11 @@ header {
                                 padding: 0;
                                 li {
                                     list-style: none;
-                                    margin-bottom: 14px;
+                                    margin-bottom: 5px;
                                     a {
                                         padding-left: 33px;
                                         position: relative;
-                                        font-size: 18px;
+                                        font-size: 16px;
                                         font-weight: 300;
                                         color: $blue-1;
                                         &:hover {
@@ -744,11 +744,13 @@ header {
                 }
                 .mega-menu-footer {
                     border-top: 1px solid $grey-16;
-                    padding: 30px 85px 20px;
+                    padding: 10px 60px;
+                    background: #e4e4e4;
                     display: flex;
                     justify-content: space-between;
+                    border-radius: 0 0 30px 30px;
                     @media only screen and (max-width: 1440px) {
-                        padding: 30px 30px 21px;
+                        padding: 10px 60px;
                     }
                     @media only screen and (max-width: 1366px) {
                         display: block;
@@ -802,7 +804,7 @@ header {
                             justify-content: center;
                         }
                         .powered-by {
-                            font-size: 16px;
+                            font-size: 12px;
                             line-height: 25px;
                             color: $purple-9;
                             font-weight: 300;
@@ -814,7 +816,7 @@ header {
                                 display: block;
                             }
                             img {
-                                width: 95px;
+                                width: 70px;
                             }
                         }
                         .social-media {
@@ -832,7 +834,7 @@ header {
                         }
                         .cookie {
                             color: $pink-5;
-                            font-size: 24px;
+                            font-size: 18px;
                             line-height: 35px;
                             font-weight: 500;
                             border-left: 1px solid $grey-17;
@@ -1300,6 +1302,7 @@ header {
                         line-height: 26px;
                         position: relative;
                         padding-left: 35px;
+                        padding-right: 20px;
                         svg {
                             color: #161436
                         }
@@ -1361,7 +1364,7 @@ header {
                     .sub-content {
                         position: absolute;
                         left: calc(100% + 32px);
-                        width: 1000px;
+                        width: 800px;
                         padding: 22px 50px;
                         top: 0;
                         background: $white;
@@ -1447,6 +1450,9 @@ header {
                     }
                     .description {
                         flex: 1;
+                        &:hover {
+                            text-decoration: none;
+                        }
                         h5 {
                             font-size: 18px;
                             font-weight: 500;
